@@ -1,0 +1,47 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT in Sidebar",
+  "description": "Displays ChatGPT in the sidebar.",
+  "version": "1.0.0",
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "100.0"
+    }
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "browser_style": true
+  },
+  "sidebar_action": {
+    "default_icon": {
+      "16": "icons/chatgpt-16x16.png",
+      "32": "icons/chatgpt-32x32.png",
+      "192": "icons/chatgpt-192x192.png"
+    },
+    "default_title": "ChatGPT",
+    "default_panel": "sidebar/panel.html"
+  },
+  "icons": {
+    "16": "icons/chatgpt-16x16.png",
+    "32": "icons/chatgpt-32x32.png"
+  },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+C"
+      },
+      "description": "Toggle the ChatGPT sidebar."
+    }
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/chatgpt-16x16.png",
+      "32": "icons/chatgpt-32x32.png"
+    }
+  }
+}
