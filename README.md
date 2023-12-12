@@ -1,10 +1,10 @@
 <h1 align=center><img src="./icons/chatgpt.png" width="64" height="64" /> ChatGPT in Sidebar</h1>
 
 <p align=center>
-<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/{6930c4ab-262a-4e93-a3fa-562714cabb3f}">
-<img src="https://img.shields.io/amo/rating/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
-<img src="https://img.shields.io/amo/dw/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
-<img src="https://img.shields.io/amo/users/{6930c4ab-262a-4e93-a3fa-562714cabb3f}" />
+<img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/  {28b7b9b8-aab9-4034-8628-26d955bf7713}">
+<img src="https://img.shields.io/amo/rating/  {28b7b9b8-aab9-4034-8628-26d955bf7713}" />
+<img src="https://img.shields.io/amo/dw/  {28b7b9b8-aab9-4034-8628-26d955bf7713}" />
+<img src="https://img.shields.io/amo/users/  {28b7b9b8-aab9-4034-8628-26d955bf7713}" />
 <img src="https://img.shields.io/github/license/semanticdata/firefox-chatgpt-in-sidebar" />
 </p>
 
