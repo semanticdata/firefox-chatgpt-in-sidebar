@@ -1,0 +1,50 @@
+name: Release new version
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  # release:
+  #   types: [published]
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build
+        id: web-ext-build
+        uses: kewisch/action-web-ext@v1
+        with:
+          cmd: build
+          filename: "{name}-{version}.xpi"
+          ignoreFiles: '[
+            "package.json",
+            "package-lock.json",
+            "yarn.lock",
+            ".github",
+            ".gitattributes",
+            "LICENSE",
+            "README.md"]'
+
+      - name: Sign
+        id: web-ext-sign
+        uses: kewisch/action-web-ext@v1
+        with:
+          cmd: sign
+          channel: listed
+          source: ${{ steps.web-ext-build.outputs.target }}
+          apiKey: ${{ secrets.FIREFOX_JWT_ISSUER }}
+          apiSecret: ${{ secrets.FIREFOX_JWT_SECRET }}
+          timeout: 900000
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          files: ${{ steps.web-ext-sign.outputs.target }}

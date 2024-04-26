@@ -1,0 +1,48 @@
+* {
+  transition: all 750ms;
+  text-align: center;
+  overflow-y: hidden !important;
+}
+
+section {
+  padding-top: 1rem !important;
+}
+
+h1 {
+  line-height: 1.5 !important;
+}
+
+p {
+  padding-top: 4rem;
+}
+
+input {
+  margin: 0.5rem 0;
+  max-width: 10rem !important;
+}
+
+input,
+button {
+  border-radius: 5px !important;
+}
+
+.site-author {
+  color: rebeccapurple;
+}
+
+.site-author:hover {
+  color: red;
+}
+
+.fa-heart {
+  color: rebeccapurple;
+}
+
+.fa-heart:hover {
+  color: red;
+}
+
+::selection {
+  background: rebeccapurple;
+  color: #ffffff;
+}

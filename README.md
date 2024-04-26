@@ -1,4 +1,4 @@
-<h1 align=center><img src="./icons/chatgpt.png" width="64" height="64" /> ChatGPT in Sidebar</h1>
+# ![logo|50](src/icons/chatgpt.png) ChatGPT in Sidebar
 
 <p align=center>
 <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/  {28b7b9b8-aab9-4034-8628-26d955bf7713}">
@@ -8,9 +8,9 @@
 <img src="https://img.shields.io/github/license/semanticdata/firefox-chatgpt-in-sidebar" />
 </p>
 
-## Introduction
+Firefox extension to display ChatGPT within the Firefox sidebar. This extension adds a new section to the sidebar which contains the ChatGPT web app. It also adds a shortcut, and a button toggle within the toolbar.
 
-Firefox Extension to display ChatGPT within the Firefox sidebar. This extension adds a new section to the sidebar which contains the ChatGPT web app. It also adds a shortcut, and a button toggle within the toolbar.
+[![Get the Addon](https://raw.githubusercontent.com/semanticdata/text-revealer-firefox-extension/master/firefox.png)](https://addons.mozilla.org/en-US/firefox/addon/chatgpt-in-sidebar/)
 
 ## How to Use
 
