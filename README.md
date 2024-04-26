@@ -1,4 +1,4 @@
-# ![logo|width=40px](src/icons/chatgpt.png) ChatGPT in Sidebar
+# ![logo|width=40](src/icons/chatgpt.png) ChatGPT in Sidebar
 
 <p align=center>
 <img alt="Mozilla Add-on" src="https://img.shields.io/amo/v/  {28b7b9b8-aab9-4034-8628-26d955bf7713}">
