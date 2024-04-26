@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ChatGPT in Sidebar",
   "description": "Displays ChatGPT in the sidebar.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "background": {
     "scripts": ["src/background.js"]
   },
