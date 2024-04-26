@@ -1,4 +1,4 @@
-<h1 align=center><img src="src/icons/chatgpt.png" width="64" height="64" /> ChatGPT in Sidebar</h1>
+<h1><img src="src/icons/chatgpt.png" width="64" height="64" /> ChatGPT in Sidebar</h1>
 
 ![Mozilla Add-on](https://img.shields.io/amo/v/{28b7b9b8-aab9-4034-8628-26d955bf7713})
 ![Add-on rating](https://img.shields.io/amo/rating/{28b7b9b8-aab9-4034-8628-26d955bf7713})
