@@ -4,7 +4,7 @@
   "description": "Displays ChatGPT in the sidebar.",
   "version": "1.0.1",
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["src/background.js"]
   },
   "browser_specific_settings": {
     "gecko": {
