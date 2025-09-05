@@ -23,7 +23,8 @@
       "192": "src/icons/chatgpt-192x192.png"
     },
     "default_title": "ChatGPT",
-    "default_panel": "src/sidebar/panel.html"
+    "default_panel": "src/sidebar/panel.html",
+    "browser_style": false
   },
   "icons": {
     "16": "src/icons/chatgpt-16x16.png",
